@@ -131,6 +131,7 @@ GEM
     multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
+    mysql2 (0.5.3-x64-mingw32)
     nio4r (2.5.7)
     nokogiri (1.11.7-x64-mingw32)
       racc (~> 1.4)
@@ -228,7 +229,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
     thor (1.1.0)
     tilt (2.0.10)
     turbolinks (5.2.1)
@@ -271,6 +271,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   devise
   jbuilder (~> 2.7)
+  mysql2
   nokogiri
   omniauth
   omniauth-facebook
@@ -282,7 +283,6 @@ DEPENDENCIES
   ruby_parser
   sass-rails (>= 6)
   selenium-webdriver
-  sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
